@@ -1,11 +1,11 @@
-#from dotenv import load_dotenv
-#load_dotenv()
+from dotenv import load_dotenv
+load_dotenv()
 
 from llm_factory import LLMFactory
 from langchain_core.prompts.chat import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 
-MODEL_PROVIDER = 'fake'
+MODEL_PROVIDER = 'openrouter'
 BOT_NAME = 'Jon Johns'
 
 def get_chain():
