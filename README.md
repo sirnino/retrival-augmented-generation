@@ -1,1 +1,1 @@
-# ai-project-template
+# Retrieval Augmented Generation with Langchain
